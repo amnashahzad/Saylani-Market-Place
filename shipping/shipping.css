@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+
+
+html,
+body {
+  /* width: 100%;
+  height: 100%; */
+  padding: 10px;
+  margin: 0;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.shipping-to {
+    height: 120px;
+    display: flex;
+}
+
+hr {
+    border-top: 1px solid #E1E8EE;
+    box-shadow: 2px rgba(0, 0, 0, 0.10);
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.home {
+    align-items: center;
+    border-radius: 15px;
+    background: #65BD50;
+    width: 161px;
+    height: 145px;
+    flex-shrink: 0;
+    margin-left: 25%;
+}
+
+.office {
+    align-items: center;
+    border-radius: 15px;
+    background: #D9D9D9;
+    width: 161px;
+    height: 145px;
+    flex-shrink: 0;
+    margin-left: 15%;
+}
+
+.head-h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.para-h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.card-number {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+.h3-small {
+    color: #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    height: 17px;
+    flex-shrink: 0;
+}
+
+#p {
+    color: #BDBABA;
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 78px;
+    height: 15px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.card-number-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-number-0 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pa {
+    color: #61B846;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+#h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+#h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+#h3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.sign {
+    font-size: 20px;
+    text-align: center;
+    width: 226px;
+    height: 69px;
+    /* margin-top: 786px; */
+    /* margin-left: 102px; */
+    border-radius: 15px;
+    background: #61B846;
+    box-shadow: 0px 4px 4px 5px rgba(212, 211, 211, 1);
+    border: none;
+}
+
+.sign a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-part {
+    color: #024F9D;
+    font-family: Inter, sans-serif;
+    /* font-size: 20px; */
+    font-weight: 700;
+    width: 60%;
+    margin-top: 20px;
+    /* margin-bottom: 50px; */
+    margin-right: 20%;
+  }
+  
+  #h3-of-head1 {
+    color: #61B846;
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    /* width: 60%; */
+    /* margin-left: 10%; */
+  
+  }
+  
+  
+  .cart-icon {
+    /* width: 5%; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  
+  }
+  
+  .cart-icon img {
+    margin-right: 15px;
+  }
+  
+  .icon {
+    width: 30px;
+    /* Set the width to 30 pixels */
+    height: 30px;
+    /* Set the height to 30 pixels */
+  }

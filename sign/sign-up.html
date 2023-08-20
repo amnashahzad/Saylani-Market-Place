@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAYLANI WELFARE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../Images/Frame.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./sign-up.css">
+</head>
+
+<body>
+    <br>
+    <div class="main">
+        <br>
+        <div class="container" style="margin-top: 30px;">
+            <h1>SAYLANI WELFARE</h1>
+            <h3>ONLINE MARKET PLACE</h3>
+            <div class="signup-form">
+                <div class="input-container">
+                    <!-- <i class="icon fas fa-user"></i> -->
+                    <input type="text" id="username" placeholder="Username" required>
+                    <i class="icon fas fa-user"></i>
+                </div>
+                <hr>
+                <div class="input-container">
+                    <!-- <i class="icon fas fa-phone"></i> -->
+                    <input type="text" id="contact" placeholder="Contact" required>
+                    <i class="icon fas fa-phone"></i>
+                </div>
+                <hr>
+                <div class="input-container">
+                    <!-- <i class="icon fas fa-envelope"></i> -->
+                    <input type="email" id="email" placeholder="Email" required>
+                    <i class="icon fas fa-envelope"></i>
+                </div>
+                <hr>
+                <div class="input-container">
+                    <!-- <i class="icon fas fa-lock"></i> -->
+                    <input type="password" id="password" placeholder="Password" required>
+                    <i class="icon fas fa-lock"></i>
+                </div>
+                <br>
+                <!-- <p id="check-box" style="margin-right: 50px;">
+                    <input type="radio" name="genre" value="sale" checked="checked" /> Sale
+                    <input type="radio" name="genre" value="pop" /> Purchase
+                </p> -->
+                <!-- <br> -->
+                <button class="sign" id="submitButton" onclick="signup()">Sign Up</button>
+                <span id="errorText" style="color: red; display: none;"></span>
+            </div>
+        </div>
+    </div>
+    <!-- <script>
+        const submitButton = document.getElementById('submitButton');
+        const genreRadios = document.getElementsByName('genre');
+        const errorText = document.getElementById('errorText');
+
+        submitButton.addEventListener('click', () => {
+            const selectedGenre = document.querySelector('input[name="genre"]:checked').value;
+            const username = document.getElementById('username').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            if (selectedGenre === 'pop') {
+                // Purchase is selected
+                // Check if any field is empty and show error if needed
+                if (username === '' || email === '' || password === '') {
+                    errorText.textContent = 'Please fill in all fields for Purchase.';
+                    errorText.style.display = 'block';
+                } else {
+                    // Perform other actions specific to Purchase
+                    // For example, you can redirect the user to the Purchase page:
+                    window.location.href = '../Purchase/Home/home.html';
+                }
+            } else if (selectedGenre === 'sale') {
+                // Sale is selected
+                // Check if any field is empty and show error if needed
+                if (username === '' || email === '' || password === '') {
+                    errorText.textContent = 'Please fill in all fields for Sale.';
+                    errorText.style.display = 'block';
+                } else {
+                    // Perform other actions specific to Sale
+                    // For example, you can redirect the user to the admin page for Sale:
+                    window.location.href = '../Home/home.html'; // Replace with the actual Sale admin page URL
+                }
+            } else {
+                // Handle other cases or show an error message if needed
+            }
+        });
+    </script> -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+        <script src="../firebase-config.js"></script>
+        <script src="../app.js"></script>
+</body>
+
+</html>

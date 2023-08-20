@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.nav a {
+    font-size: 50px;
+    margin-left: 2%;
+    color: black;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.img {
+    margin-right: 30px;
+}
+
+.img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.txt h3 {
+    margin: 0;
+    color: #024F9D;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;   
+    line-height: 25px;
+    margin-top: 25%;
+}
+
+.txt p {
+    margin: 0;
+    color: #61B846;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    /* 100% */
+}
+
+hr {
+    margin-top: 1%;
+}
+
+.txet {
+    color: #024F9D;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    width: 109px;
+    margin-left: 7%;
+}
+
+.txet h3 {
+    color: #61B846;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    width: 59px;
+}
+
+.box {
+    border-radius: 15px;
+    border: 1px solid #65BD50;
+    background: #FFF;
+    width: 363px;
+    height: 85px;
+    flex-shrink: 0;
+    margin-left: 35%;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+footer {
+    /* background-color: #ffffff; */
+    color: #000000;
+    padding: 20px;
+    width: 70%;
+    border-radius: 20px;
+    margin-left: 15%;
+    /* box-shadow: 2px 2px 4px 5px #d4d3d3; */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 0 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 5px;
+    font-size: 18px;
+  }

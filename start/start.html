@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAYLANI WELFARE</title>
+    <link rel="icon" href="../Images/Frame.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="front">
+        <img src="../Images/Frame.png" alt="">
+        <h1>SAYLANI WELFARE</h1>
+        <h3>ONLINE MARKET PLACE</h3>
+        <button class="sign" id="signInButton"><a href="../sign/sign-in.html">Sign In</a></button>
+        <button class="sign" id="signUpButton"><a href="../sign/sign-up.html">Sign Up</a></button>
+    </div>
+    <script>
+        // Function to handle the Sign-In button click
+        function handleSignInClick() {
+            alert("Welcome to SAYLANI WELFARE! Please sign in to access the Online Market Place.");
+            // You can add more code here to redirect the user to the sign-in page if needed.
+        }
+
+        // Get the Sign-In button element by its ID
+        const signInButton = document.getElementById("signInButton");
+
+        // Add a click event listener to the Sign-In button
+        signInButton.addEventListener("click", handleSignInClick);
+    </script>
+</body>
+
+</html>

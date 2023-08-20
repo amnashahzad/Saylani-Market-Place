@@ -1,0 +1,206 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap);
+body {
+  font-family: "Roboto", sans-serif;
+  background: #EFF1F3;
+  min-height: 100vh;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+.logo-title{
+	font-size: 25px;
+    font-weight: bold;
+    color: #9e0000;
+}
+.section-50 {
+  padding: 50px 0;
+}
+.m-b-50 {
+  margin-bottom: 50px;
+}
+.dark-link {
+  color: #333;
+  text-decoration:none!important;
+}
+.heading-line {
+  position: relative;
+  padding-bottom: 5px;
+}
+.heading-line:after {
+  content: "";
+  height: 4px;
+  width: 75px;
+  background-color: #0355d0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.notification-ui_dd-content {
+  margin-bottom: 30px;
+}
+.notification-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 7px;
+  /* background: #fff; */
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+  /* box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06); */
+}
+.notification-list--unread {
+  /* border-left: 2px solid #0355d0; */
+}
+.notification-list--read {
+  /* border-left: 2px solid #03ae30; */
+}
+.notification-list .notification-list_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.notification-list .notification-list_content .notification-list_img img {
+  height: 48px;
+  width: 48px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.notification-list .notification-list_content .notification-list_detail p {
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+.notification-list .notification-list_feature-img img {
+  height: 48px;
+  width: 48px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+
+/* // Mixin */
+@mixin phone {
+  @media (max-width: 599px) { @content; }
+}
+@mixin tablet {
+  @media (min-width: 600px) { @content; }
+}
+@mixin laptop {
+  @media (min-width: 900px) { @content; }
+}
+@mixin desktop {
+  @media (min-width: 1200px) { @content; }
+}
+
+body{
+	font-family: "Roboto", sans-serif;
+	background: white;
+	min-height:100vh;
+	position: relative;
+}
+
+.section-50{
+	padding:50px 0;
+}
+
+.m-b-50{
+	margin-bottom: 50px;
+}
+
+.dark-link{
+	color:#333;
+}
+
+.heading-line{
+	position: relative;
+	padding-bottom: 5px;
+	&:after{
+		content:"";
+		height:4px;
+		width:75px;
+		background-color:blue;
+		position: absolute;
+		bottom:0;
+		left:0;
+	}
+}
+
+.notification-ui_dd-content{
+	margin-bottom: 30px;
+}
+
+.notification-list{
+	display: flex;
+	justify-content: space-between;
+	padding:20px;
+	margin-bottom: 7px;
+	background:#fff;
+	/* box-shadow: 0 3px 10px rgba(0,0,0,0.06); */
+	&--unread{
+		border-left: 2px solid blue;
+	}
+	.notification-list_content{
+		display:flex;
+		.notification-list_img{
+			img{
+				height:48px;
+				width:48px;
+				border-radius:50px;
+				margin-right:20px;
+			}
+		}
+		.notification-list_detail{
+			p{
+				margin-bottom: 5px;
+				line-height:1.2;
+			}
+		}
+	}
+	.notification-list_feature-img{
+		img{
+			height:48px;
+			width:48px;
+			border-radius:5px;
+			margin-left:20px;
+		}
+	}
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    width: 70%;
+    border-radius: 20px;
+    margin-left: 10%;
+    box-shadow: 2px 2px 4px 5px #d4d3d3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 0 15px;
+  }
+  
+  .link{
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 5px;
+    font-size: 18px;
+  }

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Welfare</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../Images/Frame.png" type="image/x-icon">
+    <link rel="stylesheet" href="./items.css">
+</head>
+
+<body>
+    <button id="products" onclick="getProducts();">Get Products</button>
+    <div class="nav">
+        <a href="../Home/home.html" style="text-decoration: none;">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <div class="main">
+            <div class="img">
+                <img src="../Images/Ellipse 4 (1).png" alt="Profile Picture">
+            </div>
+            <div class="txt">
+                <h3>Mr. Ahmed</h3>
+                <p>Sales</p>
+            </div>
+        </div>
+        <div class="cart-icon" style="margin-left: 60%; display: flex;">
+            <img src="../Images/Settings.png" alt="" class="icon" width="45%">
+            <img src="../Images/add items.png" alt="" class="icon" width="45%">
+        </div>
+    </div>
+    <hr>
+    </div>
+    <div class="txet">
+        <h2>Category</h2>
+        <h3>Fruits</h3>
+    </div>
+    <div class="box">
+        <div class="img">
+            <img src="../Images/Apple.png" alt="apple" style="width: 130px;
+            height: 85px;
+            flex-shrink: 0;">
+        </div>
+        <div class="txt">
+            <h3
+                style="color: #61B846; font-family: Inter; font-size: 25px;  font-style: normal; font-weight: 600; line-height: 25px;margin-top: 25%;">
+                Apple</h3>
+            <p
+                style="color: #BFBCBC; font-family: Inter; font-size: 20px;font-style: normal; font-weight: 600; line-height: 25px;">
+                1.Kg</p>
+        </div>
+        <div style="margin-left: 28%; margin-top: 3%;">
+            <p
+                style="color: #BFBCBC; font-family: Inter; font-size: 20px;font-style: normal; font-weight: 600; line-height: 25px;">
+                $2.1</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="img">
+            <img src="../Images/Mango.png" alt="apple" style="width: 130px;
+            height: 85px;
+            flex-shrink: 0;">
+        </div>
+        <div class="txt">
+            <h3
+                style="color: #61B846; font-family: Inter; font-size: 25px;  font-style: normal; font-weight: 600; line-height: 25px;margin-top: 25%;">
+                Mango</h3>
+            <p
+                style="color: #BFBCBC; font-family: Inter; font-size: 20px;font-style: normal; font-weight: 600; line-height: 25px;">
+                1.Kg</p>
+        </div>
+        <div style="margin-left: 25%; margin-top: 3%;">
+            <p
+                style="color: #BFBCBC; font-family: Inter; font-size: 20px;font-style: normal; font-weight: 600; line-height: 25px;">
+                $5.3</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="img">
+            <img src="../Images/Kivi.png" alt="apple" style="width: 130px;
+            height: 85px;
+            flex-shrink: 0;">
+        </div>
+        <div class="txt">
+            <h3
+                style="color: #61B846; font-family: Inter; font-size: 25px;  font-style: normal; font-weight: 600; line-height: 25px;margin-top: 25%;">
+                Kivi</h3>
+            <p
+                style="color: #BFBCBC; font-family: Inter; font-size: 20px;font-style: normal; font-weight: 600; line-height: 25px;">
+                1.Kg</p>
+        </div>
+        <div style="margin-left: 33%; margin-top: 3%;">
+            <p
+                style="color: #BFBCBC; font-family: Inter; font-size: 20px;font-style: normal; font-weight: 600; line-height: 25px;">
+                $3.5</p>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <ul>
+            <li><a href="../Home/home.html" style="text-decoration: none;"><i class="fa-solid fa-house"
+                        style="color: #00ff2a; margin-left: 10px;"></i> </a>
+                <p style="margin-top: 10px; font-size: 18px; margin-right: 10px;">Home</p>
+            </li>
+            <li><a href="../add-items/add.html"><i class="fa-solid fa-circle-plus"
+                        style="margin-left: 50%; color: #3e3f41;"></i></a>
+                <p style="margin-top: 10px; font-size: 18px; margin-left: 20px;">add items</p>
+            </li>
+            <li><a href="../setting/setting.html"><i class="fa-solid fa-user"
+                        style="margin-left: 40px; color: #3e3f41;"></i></a>
+                <p style="margin-top: 10px; font-size: 18px; margin-left: 20px;">Account</p>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
+    <script src="../firebase-config.js"></script>
+    <script src="../product.js"></script>
+    <script src="../protected.js"></script>
+</body>
+
+</html>

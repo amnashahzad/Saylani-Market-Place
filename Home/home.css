@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+
+
+html,
+body {
+    padding: 10px;
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header  */
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-part {
+    color: #61B846;
+    font-family: Inter, sans-serif;
+    /* font-size: 20px; */
+    font-weight: 700;
+    width: 60%;
+    margin-top: 20px;
+
+    /* margin-bottom: 50px; */
+    margin-right: 20%;
+}
+
+#h3-of head {
+    color: #024F9D;
+    font-family: Inter, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    width: 60%;
+
+}
+
+.shopping h1 {
+    color: #024F9D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    height: 55px;
+    flex-shrink: 0;
+}
+
+.shopping p {
+    color: #BFBCBC;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    width: 315px;
+    height: 26px;
+    flex-shrink: 0;
+}
+
+.card {
+    display: flex;
+}
+
+.small-card {
+    border-radius: 15px;
+    background: #61B846;
+    width: 129px;
+    height: 57px;
+    flex-shrink: 0;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.small-card-0 {
+    border-radius: 15px;
+    border: 1px solid rgba(101, 189, 80, 0.50);
+    background: #FFF;
+    box-shadow: -2px 2px 4px 0px #DCD5D5;
+    width: 129px;
+    height: 57px;
+    flex-shrink: 0;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.head-h2 {
+    text-align: center;
+    /* margin-top: 20px; */
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.para-h2 {
+    text-align: center;
+    /* margin-top: 20px; */
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.small-card {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.small-card-0 {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.card-1 {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.small-card-1 {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.small-card-1 {
+    width: 129px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid rgba(101, 189, 80, 0.50);
+    background: #FFF;
+    box-shadow: -2px 2px 4px 0px #DCD5D5;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+.small-card-2 {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.small-card-2 {
+    width: 129px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid rgba(101, 189, 80, 0.50);
+    background: #FFF;
+    box-shadow: -2px 2px 4px 0px #DCD5D5;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+.card-2 {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.small-card-3 {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.small-card-3 {
+    width: 129px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid rgba(101, 189, 80, 0.50);
+    background: #FFF;
+    box-shadow: -2px 2px 4px 0px #DCD5D5;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+.small-card-4 {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.small-card-4 {
+    width: 129px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid rgba(101, 189, 80, 0.50);
+    background: #FFF;
+    box-shadow: -2px 2px 4px 0px #DCD5D5;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+.sign {
+    font-size: 20px;
+    text-align: center;
+    width: 226px;
+    height: 69px;
+    border-radius: 15px;
+    background: #61B846;
+    box-shadow: 0px 4px 4px 5px rgba(212, 211, 211, 1);
+    border: none;
+}
+
+.sign a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    /* background-color: #ffffff; */
+    color: #000000;
+    padding: 20px;
+    width: 70%;
+    border-radius: 20px;
+    margin-left: 15%;
+    /* box-shadow: 2px 2px 4px 5px #d4d3d3; */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 0 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 5px;
+    font-size: 18px;
+  }

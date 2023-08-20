@@ -1,0 +1,140 @@
+<html>
+
+<head>
+    <title>Chat Box</title>
+    <link rel="stylesheet" href="./typ-chat.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Import this CDN to use icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="icon" href="../Images/Frame.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Main container -->
+    <div class="container">
+        <!-- msg-header section starts -->
+        <div class="msg-header">
+            <div class="container1">
+                <img src="../Images/Ellipse 4 (1).png" class="msgimg" />
+                <div class="active">
+                    <p style="color: #024F9D; font-family: Inter; font-size: 20px;">Ahmed <i
+                            class="fa-solid fa-ellipsis-vertical" style="color: #61B846; margin-left: 530%; "></i></p>
+                </div>
+                <div class="active">
+                    <p
+                        style="margin-top: 20%; color: #D9D9D9;font-family:Inter; font-size: 15px; font-style: normal;font-weight: 600; line-height: 25px; width: 66px;height:16px; flex-shrink: 0;">
+                        online</p>
+                </div>
+            </div>
+        </div>
+        <!-- msg-header section ends -->
+
+        <!-- Chat inbox  -->
+        <div class="chat-page">
+            <div class="msg-inbox">
+                <div class="chats">
+                    <!-- Message container -->
+                    <div class="msg-page">
+                        <!-- Incoming messages -->
+
+                        <div class="received-chats">
+                            <div class="received-chats-img">
+                                <img src="../Images/Ellipse 4 (1).png" />
+                            </div>
+                            <div class="received-msg">
+                                <div class="received-msg-inbox">
+                                    <p>
+                                        Hi, Ahmed
+                                    </p>
+                                    <span class="time">1:00 PM | July 24</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Outgoing messages -->
+                        <div class="outgoing-chats">
+                            <div class="outgoing-chats-img">
+                                <img src="../Images/images (4).jpg" style="margin-left: 5%;" />
+                            </div>
+                            <div class="outgoing-msg">
+                                <div class="outgoing-chats-msg">
+                                    <p class="multi-msg">
+                                        Hello, Ahmed
+                                    </p>
+
+                                    <span class="time">1:30 PM | July 24</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="received-chats">
+                            <div class="received-chats-img">
+                                <img src="../Images/Ellipse 4 (1).png" />
+                            </div>
+                            <div class="received-msg">
+                                <div class="received-msg-inbox">
+                                    <p class="single-msg">
+                                        I am Admin, here to help you
+                                        find new friends.
+                                    </p>
+                                    <span class="time">1:31 PM | July 24</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outgoing-chats">
+                            <div class="outgoing-chats-img">
+                                <img src="../Images/images (4).jpg" style="margin-left: 5%;" />
+                            </div>
+                            <div class="outgoing-msg">
+                                <div class="outgoing-chats-msg">
+                                    <p>
+                                        Thank you for your answer
+                                    </p>
+
+                                    <span class="time">18:34 PM | July 24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- msg-bottom section -->
+
+                <div class="msg-bottom">
+                    <div class="input-group" style="margin-right: 20%;">
+                        <input type="text" class="form-control" placeholder="Write message..." />
+
+                        <span class="input-group-text send-icon">
+                            <a href="../noti/noti.html" style="text-decoration: none; color: #000;"><i
+                                    class="bi bi-send"></i></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer style="margin-left: 15%;">
+        <ul>
+            <li><a class="link" href="../Home/home.html" style="text-decoration: none;"><i class="fa-solid fa-house"
+                        style="color: #3e3f41; margin-left: 10px;"></i> </a>
+                <p style="margin-top: 10px; font-size: 18px; margin-right: 10px;">Home</p>
+            </li>
+            <li><a href="../chart/chat.html" style="text-decoration: none;"><i class="fa-solid fa-message"
+                        style="color: #00ff2a; margin-left: 45px; margin-top: 1px;"></i></a>
+                <p style="margin-top: 10px; font-size: 18px; margin-left: 20px;">Message</p>
+            </li>
+            <li><a href="../Shopping-Cart/shop.html"><i class="fa-solid fa-cart-shopping"
+                        style="margin-left: 25px; color: #3e3f41;"></i></a>
+                <p style="margin-top: 10px; font-size: 18px; margin-left: 20px;">Cart</p>
+            </li>
+            <li><a href="../Settings/sett.html"><i class="fa-solid fa-user"
+                        style="margin-left: 40px; color: #3e3f41;"></i></a>
+                <p style="margin-top: 10px; font-size: 18px; margin-left: 20px;">Account</p>
+            </li>
+        </ul>
+    </footer>
+    <script src="typ-chat.js"></script>
+</body>
+
+</html>

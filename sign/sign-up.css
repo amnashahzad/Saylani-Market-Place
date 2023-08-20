@@ -1,0 +1,117 @@
+body{
+    /* align-items: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin-left: 33%;
+    border-radius: 35px;
+    background: #FFF;
+     /* box-shadow: 0px 2px 12px 3px #61B846;  */
+    /* backdrop-filter: blur(25px); */
+}
+
+
+.main {
+    width: 389px;
+    height: 649px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: rgba(97, 184, 70, 0.01);
+    box-shadow: 2px 2px 4px 5px #d4d3d3;
+  }
+  
+  .container {
+    margin-top: 30%;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .container h1 {
+    color: #61B846;
+    font-family: Inter, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .container h3 {
+    color: #024F9D;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #D4D3D3;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  .icon {
+    margin-right: 8px;
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    flex: 1;
+  }
+  
+  #check-box {
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 30px;
+  }
+  
+  .sign {
+    font-size: 20px;
+    text-align: center;
+    width: 226px;
+    height: 69px;
+    border-radius: 15px;
+    background: #61B846;
+    box-shadow: 0px 4px 4px 5px rgba(212, 211, 211, 1);
+    border: none;
+    margin: 10px;
+  }
+  
+  .sign a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  @media (max-width: 600px) {
+    .main {
+      width: 100%;
+      height: auto;
+    }
+  
+    .signup-form {
+      width: 80%;
+    }
+  
+    #check-box {
+      margin: 20px;
+    }
+  
+    .sign {
+      margin: 20px;
+    }
+  }
+  

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAYLANI WELFARE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../Images/Frame.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./sign-up.css">
+</head>
+
+<body>
+    <br>
+    <div class="main">
+        <br>
+        <div class="container" style="margin-top: 30px;">
+            <h1>SAYLANI WELFARE</h1>
+            <h3>ONLINE MARKET PLACE</h3>
+            <div class="signup-form">
+                <!-- <div class="input-container">
+                    <input type="text"  id="name" placeholder="Username" required>
+                    <i class="icon fas fa-user"></i>
+                </div>
+                <hr> -->
+                <div class="input-container">
+                    <!-- <i class="icon fas fa-envelope"></i> -->
+                    <input type="email" id="email" placeholder="Email" required>
+                    <i class="icon fas fa-envelope"></i>
+                </div>
+                <hr>
+                <div class="input-container">
+                    <!-- <i class="icon fas fa-lock"></i> -->
+                    <input type="password" id="password" placeholder="Password" required>
+                    <i class="icon fas fa-lock"></i>
+                </div>
+                <br>
+                <!-- <p id="check-box" style="margin-right: 50px;">
+                    <input type="radio" name="genre" value="sale" />Sale
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="genre" value="Purchase" checked="checked" />
+                    Purchase
+                </p> -->
+                <!-- <br> -->
+                <button class="sign" onclick="signin()">Sign In</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script>
+        // Function to handle the Sign In button click
+        function handleSignInClick() {
+            // Get the values from the input fields
+            const username = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+
+            // Get the selected genre (Sale or Purchase)
+            const selectedGenre = document.querySelector('input[name="genre"]:checked').value;
+
+            // Display the entered data in an alert message
+            const message = `Welcome to SAYLANI WELFARE!\n\nUsername: ${username}\nEmail: ${email}\nPassword: ${password}\nGenre: ${selectedGenre}`;
+            alert(message);
+
+            // You can add more code here to process the form data, such as sending it to a server using AJAX or performing form validation.
+            // You can also redirect the user to the home page or other pages as needed.
+        }
+
+        // Get the Sign In button element by its class
+        const signInButton = document.querySelector(".sign a");
+
+        // Add a click event listener to the Sign In button
+        signInButton.addEventListener("click", handleSignInClick);
+    </script> -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+    <script src="../firebase-config.js"></script>
+    <script src="../app.js"></script>
+</body>
+
+</html>
